@@ -15,6 +15,13 @@
 		579D31681DC341F80003ABC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579D31661DC341F80003ABC2 /* LaunchScreen.storyboard */; };
 		579D31731DC341F80003ABC2 /* TestCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 579D31721DC341F80003ABC2 /* TestCollectionViewTests.m */; };
 		579D317E1DC341F80003ABC2 /* TestCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 579D317D1DC341F80003ABC2 /* TestCollectionViewUITests.m */; };
+		57F95DA81DC3482D00680758 /* SiSCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F95DA71DC3482D00680758 /* SiSCollectionViewController.m */; };
+		57F95DAE1DC3487900680758 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57F95DA91DC3487900680758 /* 1.jpg */; };
+		57F95DAF1DC3487900680758 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57F95DAA1DC3487900680758 /* 2.jpg */; };
+		57F95DB01DC3487900680758 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57F95DAB1DC3487900680758 /* 3.jpg */; };
+		57F95DB11DC3487900680758 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57F95DAC1DC3487900680758 /* 4.jpg */; };
+		57F95DB21DC3487900680758 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57F95DAD1DC3487900680758 /* 5.jpg */; };
+		57F95DB61DC349B100680758 /* SiSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F95DB51DC349B100680758 /* SiSCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,15 @@
 		579D31791DC341F80003ABC2 /* TestCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		579D317D1DC341F80003ABC2 /* TestCollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewUITests.m; sourceTree = "<group>"; };
 		579D317F1DC341F80003ABC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F95DA61DC3482D00680758 /* SiSCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSCollectionViewController.h; sourceTree = "<group>"; };
+		57F95DA71DC3482D00680758 /* SiSCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSCollectionViewController.m; sourceTree = "<group>"; };
+		57F95DA91DC3487900680758 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		57F95DAA1DC3487900680758 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		57F95DAB1DC3487900680758 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		57F95DAC1DC3487900680758 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		57F95DAD1DC3487900680758 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		57F95DB41DC349B100680758 /* SiSCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiSCollectionViewCell.h; sourceTree = "<group>"; };
+		57F95DB51DC349B100680758 /* SiSCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiSCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +122,14 @@
 				579D315E1DC341F80003ABC2 /* ViewController.h */,
 				579D315F1DC341F80003ABC2 /* ViewController.m */,
 				579D31611DC341F80003ABC2 /* Main.storyboard */,
+				57F95DA61DC3482D00680758 /* SiSCollectionViewController.h */,
+				57F95DA71DC3482D00680758 /* SiSCollectionViewController.m */,
+				57F95DB41DC349B100680758 /* SiSCollectionViewCell.h */,
+				57F95DB51DC349B100680758 /* SiSCollectionViewCell.m */,
 				579D31641DC341F80003ABC2 /* Assets.xcassets */,
 				579D31661DC341F80003ABC2 /* LaunchScreen.storyboard */,
 				579D31691DC341F80003ABC2 /* Info.plist */,
+				57F95DB31DC3487D00680758 /* Images */,
 				579D31581DC341F80003ABC2 /* Supporting Files */,
 			);
 			path = TestCollectionView;
@@ -138,6 +159,18 @@
 				579D317F1DC341F80003ABC2 /* Info.plist */,
 			);
 			path = TestCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		57F95DB31DC3487D00680758 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				57F95DA91DC3487900680758 /* 1.jpg */,
+				57F95DAA1DC3487900680758 /* 2.jpg */,
+				57F95DAB1DC3487900680758 /* 3.jpg */,
+				57F95DAC1DC3487900680758 /* 4.jpg */,
+				57F95DAD1DC3487900680758 /* 5.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				579D31681DC341F80003ABC2 /* LaunchScreen.storyboard in Resources */,
+				57F95DB21DC3487900680758 /* 5.jpg in Resources */,
+				57F95DB11DC3487900680758 /* 4.jpg in Resources */,
+				57F95DAE1DC3487900680758 /* 1.jpg in Resources */,
+				57F95DAF1DC3487900680758 /* 2.jpg in Resources */,
+				57F95DB01DC3487900680758 /* 3.jpg in Resources */,
 				579D31651DC341F80003ABC2 /* Assets.xcassets in Resources */,
 				579D31631DC341F80003ABC2 /* Main.storyboard in Resources */,
 			);
@@ -279,6 +317,8 @@
 			files = (
 				579D31601DC341F80003ABC2 /* ViewController.m in Sources */,
 				579D315D1DC341F80003ABC2 /* AppDelegate.m in Sources */,
+				57F95DB61DC349B100680758 /* SiSCollectionViewCell.m in Sources */,
+				57F95DA81DC3482D00680758 /* SiSCollectionViewController.m in Sources */,
 				579D315A1DC341F80003ABC2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
