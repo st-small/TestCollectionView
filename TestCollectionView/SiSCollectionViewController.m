@@ -34,7 +34,7 @@
         NSArray* temp = [NSArray arrayWithArray:self.imagesArray];
         for (int i = 0; i < 100; i++) {
             [self.imagesArray addObjectsFromArray:temp];
-            NSLog(@"%d", self.imagesArray.count);
+            NSLog(@"%lu", (unsigned long)self.imagesArray.count);
         }
     });
 }
